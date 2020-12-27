@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background-image: url("https://media.timeout.com/images/105239239/image.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar button {
+  background: transparent;
+  font-size: 40px;
+  cursor: pointer;
+  color: aliceblue;
+  margin-top: 40px;
+  padding: 0 20px;
+  border: none;
+}
+
+.home-page {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  margin-top: 250px;
+  padding-left: 50px;
+  color: aliceblue;
+}
+
+.menu-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.menu-page .food {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 175px 0 25px 25px;
+  padding: 10px;
+  background-color: transparent;
+  color: aliceblue;
+}
+
+.food p {
+  width: 250px;
+}
+
+.food h3 {
+  font-size: 20px;
+}
+
+.food img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.reservation-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  color: aliceblue;
+  padding: 50px;
+}
+
+.reservation-page > input {
+  width: 150px;
+  height: 25px;
+  margin: 10px
+}
+
+.reservation-page button {
+  width: 150px;
+  height: 30px;
+  margin-top: 25px;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.reservation-page ,h1 ,p {
+  margin: 25px;
+}
